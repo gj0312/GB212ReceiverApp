@@ -16,7 +16,7 @@ git clone https://github.com/ccf19881030/GB212ReceiverApp
 该程序是基于Qt5.14.2的HJ212-2017 TCP接收服务端，解析入库程序。数据库采用MySQL ODBC，使用Qt库编写TCP服务器，接收到HJ212-2017报文后解析入库到MySQL数据库中。
 
 ## 注意事项
-一、开发环境：
+### 一、开发环境：
 1、使用VS2017+QT5.14.2作为开发环境，已经测试过基于X64位的Debug和Relase版本
 2、使用到的技术有Qt、ODBC连接库mysql-connector-odbc-8.0.24-winx64.msi，关于在Windows10中使用Qt连接MySQL数据库，可以参考CSDN上的一篇博客：连接MySQL数据库(通过ODBC方式连接)
 https://blog.csdn.net/joey_ro/article/details/105411135
@@ -24,7 +24,7 @@ https://blog.csdn.net/joey_ro/article/details/105411135
 4、可以使用windeployqt.exe和Inno Setup Compiler对编译好的release x64位的Qt C++程序进行打包。
 
 
-二、前提条件：
+### 二、前提条件：
 1、安装Qt5.14.2等版本
 2、安装MySQL数据库
 3、将MySQL数据库脚本 目录下的test_hj212_db.sql导入到你本地的MySQL数据库中
